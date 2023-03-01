@@ -4,8 +4,8 @@
 // npx ts-node --project ./tools/scripts/tsconfig.json ./tools/scripts/serialize-slo-mappings.ts
 
 import { KubeConfig } from '@kubernetes/client-node';
-import { initPolarisLib } from '@rm98/common-mappings';
-import { initPolarisKubernetes } from '@rm98/kubernetes';
+import { initPolarisLib } from '@rm98/polaris-common-mappings';
+import { initPolarisKubernetes } from '@rm98/polaris-kubernetes';
 import * as Yaml from 'js-yaml';
 import * as sloMapping from '../../slo-mappings/examples/cost-efficiency-cms';
 

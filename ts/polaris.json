@@ -4,7 +4,7 @@
         "common-mappings": {
             "projectType": "library",
             "tsEntryPoint": "libs/common-mappings/src/index.ts",
-            "importPath": "@rm98/common-mappings",
+            "importPath": "@rm98/polaris-common-mappings",
             "crds": {
                 "tsConfig": "tsconfig.base.json",
                 "outDir": "crds/kubernetes",
@@ -20,12 +20,12 @@
         "core": {
             "projectType": "library",
             "tsEntryPoint": "libs/core/src/index.ts",
-            "importPath": "@rm98/core"
+            "importPath": "@rm98/polaris-core"
         },
         "cost-efficiency": {
             "projectType": "library",
             "tsEntryPoint": "libs/metrics/cost-efficiency/src/index.ts",
-            "importPath": "@rm98/cost-efficiency"
+            "importPath": "@rm98/polaris-cost-efficiency"
         },
         "elasticity-horizontal-elasticity-strategy-controller": {
             "projectType": "elasticity-strategy-controller",
@@ -38,7 +38,7 @@
         "kubernetes": {
             "projectType": "library",
             "tsEntryPoint": "libs/kubernetes/src/index.ts",
-            "importPath": "@rm98/kubernetes"
+            "importPath": "@rm98/polaris-kubernetes"
         },
         "metrics-rest-api-cost-efficiency-controller": {
             "projectType": "composed-metric-controller",
@@ -47,17 +47,17 @@
         "schema-gen": {
             "projectType": "library",
             "tsEntryPoint": "libs/schema-gen/src/index.ts",
-            "importPath": "@rm98/schema-gen"
+            "importPath": "@rm98/polaris-schema-gen"
         },
         "polaris-nx": {
             "projectType": "library",
             "tsEntryPoint": "libs/polaris-nx/src/index.ts",
-            "importPath": "@rm98/polaris-nx"
+            "importPath": "@rm98/polaris-polaris-nx"
         },
         "prometheus": {
             "projectType": "library",
             "tsEntryPoint": "libs/prometheus/src/index.ts",
-            "importPath": "@rm98/prometheus"
+            "importPath": "@rm98/polaris-prometheus"
         },
         "slo-cost-efficiency-slo-controller": {
             "projectType": "slo-controller",

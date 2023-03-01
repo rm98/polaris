@@ -1,4 +1,4 @@
-import { DefaultTransformer } from '@rm98/core';
+import { DefaultTransformer } from '@rm98/polaris-core';
 
 
 /**

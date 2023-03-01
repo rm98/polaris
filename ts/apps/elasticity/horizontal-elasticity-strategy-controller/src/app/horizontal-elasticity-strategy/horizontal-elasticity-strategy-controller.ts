@@ -5,7 +5,7 @@ import {
     Scale,
     SloCompliance,
     SloTarget,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 
 /**
  * Performs simple horizontal scaling of a workload.

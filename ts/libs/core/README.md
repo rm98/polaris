@@ -1,4 +1,4 @@
-# @rm98/core
+# @rm98/polaris-core
 
 This is the orchestrator-independent core library of the Polaris framework.
 

@@ -5,7 +5,7 @@ import {
     SloComplianceElasticityStrategyControllerBase,
     SloTarget,
     StabilizationWindowTracker,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 import { <%= eStratConfigType %>, <%= eStratType %> } from '<%= eStratTypePkg %>';
 
 

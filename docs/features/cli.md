@@ -9,7 +9,7 @@ It has the following prerequisites:
 To install the Polaris CLI execute the following command:
 
 ```sh
-npm install -g @rm98/cli
+npm install -g @rm98/polaris-cli
 ```
 
 Now, the Polaris CLI is available globally, as `polaris-cli`.

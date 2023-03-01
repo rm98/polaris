@@ -1,4 +1,4 @@
-import { PolarisConstructor } from '@rm98/core';
+import { PolarisConstructor } from '@rm98/polaris-core';
 
 /**
  * Configuration options for generating a schema for a particular type.

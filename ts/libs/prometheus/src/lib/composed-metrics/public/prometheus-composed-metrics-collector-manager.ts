@@ -8,7 +8,7 @@ import {
     Logger,
     ObjectKind,
     Sample,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 import * as express from 'express';
 import { Gauge, Registry } from 'prom-client';
 import { flattenObject } from '../internal';

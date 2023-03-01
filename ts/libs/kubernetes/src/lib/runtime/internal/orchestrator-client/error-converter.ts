@@ -1,5 +1,5 @@
 import { HttpError } from '@kubernetes/client-node';
-import { OrchestratorRequestError } from '@rm98/core';
+import { OrchestratorRequestError } from '@rm98/polaris-core';
 
 /**
  * Converts a Kubernetes-specific error to a Polaris `OrchestratorRequestError`.

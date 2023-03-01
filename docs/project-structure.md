@@ -2,9 +2,9 @@
 
 The Polaris project consists of the following components:
 
-* Orchestrator-independent SLO Script core library (`@rm98/core`)
-* Orchestrator-specific SLO Script connectors (currently `@rm98/kubernetes`)
-* SLO Script metrics query API connectors (currently `@rm98/prometheus`)
+* Orchestrator-independent SLO Script core library (`@rm98/polaris-core`)
+* Orchestrator-specific SLO Script connectors (currently `@rm98/polaris-kubernetes`)
+* SLO Script metrics query API connectors (currently `@rm98/polaris-prometheus`)
 * Generic SLO mappings and controllers
 * Generic elasticity strategy controllers
 

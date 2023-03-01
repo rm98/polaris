@@ -1,4 +1,4 @@
-import { PolarisRuntime } from '@rm98/core';
+import { PolarisRuntime } from '@rm98/polaris-core';
 import { KubeCostMetricSourceFactory, RestApiCostEfficiencyMetricSourceFactory } from './metrics';
 
 /**

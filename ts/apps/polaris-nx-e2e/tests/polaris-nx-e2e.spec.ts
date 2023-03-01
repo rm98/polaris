@@ -15,7 +15,7 @@ describe('polaris-nx e2e', () => {
         // await runNxCommandAsync(`generate @nrwl/node:library ${libProj} --importPath=${WORKSPACE_NPM_ORG}/${libProj} --unitTestRunner=none`);
 
         // eslint-disable-next-line max-len
-        const result = await runNxCommandAsync(`generate @rm98/polaris-nx:slo-mapping-type ${sloMappingType} --project=${libProj} --createLibProject=true --importPath=${WORKSPACE_NPM_ORG}/${libProj}`);
+        const result = await runNxCommandAsync(`generate @rm98/polaris-polaris-nx:slo-mapping-type ${sloMappingType} --project=${libProj} --createLibProject=true --importPath=${WORKSPACE_NPM_ORG}/${libProj}`);
         if (result.stderr) {
             console.log(result.stderr);
         }
@@ -32,12 +32,12 @@ describe('polaris-nx e2e', () => {
     it('should create an slo-mapping instance', async () => {
         const sloMappingName = uniq('my-slo-mapping');
         const sloMappingType = 'CostEfficiencySloMapping';
-        const sloMappingTypePkg = '@rm98/common-mappings';
+        const sloMappingTypePkg = '@rm98/polaris-common-mappings';
 
         ensureNxProject(WORKSPACE_NPM_PACKAGE, 'dist/libs/polaris-nx');
 
         // eslint-disable-next-line max-len
-        const result = await runNxCommandAsync(`generate @rm98/polaris-nx:slo-mapping ${sloMappingName} --directory=test --sloMappingTypePkg=${sloMappingTypePkg} --sloMappingType=${sloMappingType}`);
+        const result = await runNxCommandAsync(`generate @rm98/polaris-polaris-nx:slo-mapping ${sloMappingName} --directory=test --sloMappingTypePkg=${sloMappingTypePkg} --sloMappingType=${sloMappingType}`);
         if (result.stderr) {
             console.log(result.stderr);
         }
@@ -51,12 +51,12 @@ describe('polaris-nx e2e', () => {
     it('should create an slo-controller', async () => {
         const controllerName = uniq('slo-controller-test');
         const sloMappingType = 'CostEfficiencySloMapping';
-        const sloMappingTypePkg = '@rm98/common-mappings';
+        const sloMappingTypePkg = '@rm98/polaris-common-mappings';
 
         ensureNxProject(WORKSPACE_NPM_PACKAGE, 'dist/libs/polaris-nx');
 
         const result = await runNxCommandAsync(
-            `g @rm98/polaris-nx:slo-controller ${controllerName} --sloMappingTypePkg=${sloMappingTypePkg} --sloMappingType=${sloMappingType}`,
+            `g @rm98/polaris-polaris-nx:slo-controller ${controllerName} --sloMappingTypePkg=${sloMappingTypePkg} --sloMappingType=${sloMappingType}`,
         );
         if (result.stderr) {
             console.log(result.stderr);
@@ -82,7 +82,7 @@ describe('polaris-nx e2e', () => {
         // await runNxCommandAsync(`generate @nrwl/node:library ${libProj} --importPath=${WORKSPACE_NPM_ORG}/${libProj} --unitTestRunner=none`);
 
         // eslint-disable-next-line max-len
-        const result = await runNxCommandAsync(`generate @rm98/polaris-nx:elasticity-strategy ${elasticityStrategyType} --project=${libProj} --createLibProject=true --importPath=${WORKSPACE_NPM_ORG}/${libProj}`);
+        const result = await runNxCommandAsync(`generate @rm98/polaris-polaris-nx:elasticity-strategy ${elasticityStrategyType} --project=${libProj} --createLibProject=true --importPath=${WORKSPACE_NPM_ORG}/${libProj}`);
         if (result.stderr) {
             console.log(result.stderr);
         }
@@ -96,12 +96,12 @@ describe('polaris-nx e2e', () => {
     it('should create an elasticity-strategy-controller', async () => {
         const controllerName = uniq('elasticity-strategy-controller-test');
         const eStratType = 'HorizontalElasticityStrategy';
-        const eStratTypePkg = '@rm98/common-mappings';
+        const eStratTypePkg = '@rm98/polaris-common-mappings';
 
         ensureNxProject(WORKSPACE_NPM_PACKAGE, 'dist/libs/polaris-nx');
 
         const result = await runNxCommandAsync(
-            `g @rm98/polaris-nx:elasticity-strategy-controller ${controllerName} --eStratTypePkg=${eStratTypePkg} --eStratType=${eStratType}`,
+            `g @rm98/polaris-polaris-nx:elasticity-strategy-controller ${controllerName} --eStratTypePkg=${eStratTypePkg} --eStratType=${eStratType}`,
         );
         if (result.stderr) {
             console.log(result.stderr);
@@ -127,7 +127,7 @@ describe('polaris-nx e2e', () => {
         // await runNxCommandAsync(`generate @nrwl/node:library ${libProj} --importPath=${WORKSPACE_NPM_ORG}/${libProj} --unitTestRunner=none`);
 
         // eslint-disable-next-line max-len
-        const result = await runNxCommandAsync(`generate @rm98/polaris-nx:composed-metric-type ${compMetricName} --project=${libProj} --createLibProject=true --importPath=${WORKSPACE_NPM_ORG}/${libProj}`);
+        const result = await runNxCommandAsync(`generate @rm98/polaris-polaris-nx:composed-metric-type ${compMetricName} --project=${libProj} --createLibProject=true --importPath=${WORKSPACE_NPM_ORG}/${libProj}`);
         if (result.stderr) {
             console.log(result.stderr);
         }
@@ -141,13 +141,13 @@ describe('polaris-nx e2e', () => {
     it('should create a composed-metric-controller', async () => {
         const controllerName = uniq('composed-metric-controller-test');
         const compMetricType = 'CostEfficiencyMetric';
-        const compMetricTypePkg = '@rm98/common-mappings';
+        const compMetricTypePkg = '@rm98/polaris-common-mappings';
 
         ensureNxProject(WORKSPACE_NPM_PACKAGE, 'dist/libs/polaris-nx');
 
         const result = await runNxCommandAsync(
             // eslint-disable-next-line max-len
-            `g @rm98/polaris-nx:composed-metric-controller ${controllerName} --compMetricTypePkg=${compMetricTypePkg} --compMetricType=${compMetricType}`,
+            `g @rm98/polaris-polaris-nx:composed-metric-controller ${controllerName} --compMetricTypePkg=${compMetricTypePkg} --compMetricType=${compMetricType}`,
         );
         if (result.stderr) {
             console.log(result.stderr);

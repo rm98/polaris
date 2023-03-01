@@ -8,7 +8,7 @@ import {
     POLARIS_API,
     PolarisRuntime,
     getPlural,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 import { version as polarisVersion } from '../../../package.json';
 import { SchemaGeneratorConfig } from './config';
 import { SchemaGeneratorError } from './errors';

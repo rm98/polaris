@@ -20,7 +20,7 @@ import {
     TimeRange,
     TimeSeriesQuery,
     TimeSeriesQueryResultType,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 import { PrometheusConfig } from '../../config';
 import { PrometheusNativeQuery } from './prometheus-native-query';
 

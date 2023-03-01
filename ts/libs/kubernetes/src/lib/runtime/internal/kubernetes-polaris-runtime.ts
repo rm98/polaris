@@ -1,5 +1,5 @@
 import { KubeConfig, KubernetesObjectApi } from '@kubernetes/client-node';
-import { ObjectKindWatcher, OrchestratorClient, PolarisRuntimeBase, SloEvaluator } from '@rm98/core';
+import { ObjectKindWatcher, OrchestratorClient, PolarisRuntimeBase, SloEvaluator } from '@rm98/polaris-core';
 import { KubernetesSloEvaluator } from '../../slo';
 import { KubernetesOrchestratorClient } from './orchestrator-client';
 import { KubernetesObjectKindWatcher } from './watch';

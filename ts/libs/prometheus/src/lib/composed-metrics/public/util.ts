@@ -1,4 +1,4 @@
-import { ComposedMetricType } from '@rm98/core';
+import { ComposedMetricType } from '@rm98/polaris-core';
 import { snakeCase } from 'change-case';
 
 /** Constants used for naming Polaris composed metrics in Prometheus. */

@@ -2,9 +2,9 @@
 // It can be safely deleted.
 
 import { KubeConfig } from '@kubernetes/client-node';
-import { PolarisConstructor } from '@rm98/core';
-import { initPolarisKubernetes } from '@rm98/kubernetes';
-import { CustomResourceDefinitionWriter } from '@rm98/schema-gen';
+import { PolarisConstructor } from '@rm98/polaris-core';
+import { initPolarisKubernetes } from '@rm98/polaris-kubernetes';
+import { CustomResourceDefinitionWriter } from '@rm98/polaris-schema-gen';
 import {
     <%= polarisTypesList %>,
     initPolarisLib as initPolarisTargetLib,

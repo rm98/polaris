@@ -5,7 +5,7 @@ import { FsTree, flushChanges } from 'nx/src/generators/tree';
 import { SLO_MAPPINGS_DIR, getTempDir, getWorkspaceTsConfigPath } from '../../util';
 import { SerializeSloMappingGeneratorNormalizedSchema, SerializeSloMappingGeneratorSchema } from './schema';
 
-const COMMON_MAPPINGS_PKG = '@rm98/common-mappings';
+const COMMON_MAPPINGS_PKG = '@rm98/polaris-common-mappings';
 
 /**
  * Generates a temporary script that serializes the SloMapping and then executes that script.

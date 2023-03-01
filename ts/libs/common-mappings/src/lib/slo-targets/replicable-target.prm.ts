@@ -1,4 +1,4 @@
-import { SloTarget } from '@rm98/core';
+import { SloTarget } from '@rm98/polaris-core';
 
 /**
  * An `SloTarget` that supports replicas (horizontal scaling).

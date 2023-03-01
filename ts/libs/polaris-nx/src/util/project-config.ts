@@ -43,7 +43,7 @@ export function addDeployTarget(projectConfig: ProjectConfig, options: Normalize
 export function addGenCrdsTarget(projectConfig: ProjectConfig, options: NormalizedLibraryClassGeneratorSchema): void {
     if (!projectConfig.targets['gen-crds']) {
         projectConfig.targets['gen-crds'] = {
-            executor: '@rm98/polaris-nx:generate-crds',
+            executor: '@rm98/polaris-polaris-nx:generate-crds',
             options: {},
         };
     }

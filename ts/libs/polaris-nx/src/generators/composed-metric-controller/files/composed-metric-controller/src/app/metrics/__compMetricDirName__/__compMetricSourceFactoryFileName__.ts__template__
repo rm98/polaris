@@ -1,4 +1,4 @@
-import { ComposedMetricSource, ComposedMetricSourceFactory, MetricsSource, ObjectKind, OrchestratorGateway } from '@rm98/core';
+import { ComposedMetricSource, ComposedMetricSourceFactory, MetricsSource, ObjectKind, OrchestratorGateway } from '@rm98/polaris-core';
 import { <%= compMetricValueType %>, <%= compMetricType %>, <%= compMetricParams %> } from '<%= compMetricTypePkg %>';
 import { <%= compMetricSource %> } from './<%= compMetricSourceFileName %>';
 

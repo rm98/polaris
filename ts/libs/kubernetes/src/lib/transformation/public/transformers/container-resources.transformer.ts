@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
-import { Constructor, ContainerResources, JsonSchema, PolarisTransformationService, ReusablePolarisTransformer } from '@rm98/core';
+import { Constructor, ContainerResources, JsonSchema, PolarisTransformationService, ReusablePolarisTransformer } from '@rm98/polaris-core';
 import { KubernetesQuantity, KubernetesResourceRequirements, KubernetesResourcesList } from '../../../model';
 
 /**

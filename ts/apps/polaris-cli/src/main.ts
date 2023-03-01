@@ -3,7 +3,7 @@
 import { PolarisCliImpl } from './app/polaris-cli.impl';
 import { allowExecutingGlobalCli, findWorkspaceRoot } from './app/util';
 
-const POLARIS_CLI_MAIN_JS = '@rm98/cli/src/main.js';
+const POLARIS_CLI_MAIN_JS = '@rm98/polaris-cli/src/main.js';
 
 const startupDir = process.cwd();
 const workspaceRoot = findWorkspaceRoot(startupDir);
@@ -47,8 +47,8 @@ function runWithinWorkspace(): void {
         if (globalCliOptions.allowGlobalCli) {
             launchCli();
         } else {
-            console.error('The @rm98/cli is not installed in the local workspace.');
-            console.error('You can add it by running: npm install --save-dev @rm98/cli');
+            console.error('The @rm98/polaris-cli is not installed in the local workspace.');
+            console.error('You can add it by running: npm install --save-dev @rm98/polaris-cli');
             process.exit(1);
         }
     }

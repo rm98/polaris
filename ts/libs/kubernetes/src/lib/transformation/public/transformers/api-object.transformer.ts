@@ -9,7 +9,7 @@ import {
     PolarisTransformationService,
     ReusablePolarisTransformer,
     unwrapNestedArraySchema,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 import { ApiVersionKind, KubernetesObjectWithSpec } from '../../../model';
 import { KubernetesDefaultTransformer } from './kubernetes-default.transformer';
 

@@ -1,4 +1,4 @@
-import { ComposedMetricSourceBase, MetricsSource, ObjectKind, OrchestratorGateway, Sample, getEnvironmentVariable } from '@rm98/core';
+import { ComposedMetricSourceBase, MetricsSource, ObjectKind, OrchestratorGateway, Sample, getEnvironmentVariable } from '@rm98/polaris-core';
 import { <%= compMetricValueType %>, <%= compMetricParams %> } from '<%= compMetricTypePkg %>';
 import axios from 'axios';
 import {Observable} from 'rxjs';

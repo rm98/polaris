@@ -6,7 +6,7 @@ import {
     V1CustomResourceDefinition,
 } from '@kubernetes/client-node';
 import {Tree} from '@nrwl/devkit';
-import {SloMappingBase} from '@rm98/core';
+import {SloMappingBase} from '@rm98/polaris-core';
 import {camelCase, snakeCase} from 'change-case';
 import {flushChanges} from 'nx/src/generators/tree';
 import {DEFAULT_CONFIG as TS_JSON_SCHEMA_GEN_DEFAULT_CONFIG, createGenerator} from 'ts-json-schema-generator';

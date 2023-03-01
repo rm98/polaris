@@ -6,11 +6,11 @@ import {
     SloCompliance,
     SloTarget,
     initSelf,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 import { ReplicableTarget } from '../slo-targets';
 
 // Re-export HorizontalElasticityStrategyConfig for easier imports in the code generator.
-export { HorizontalElasticityStrategyConfig } from '@rm98/core';
+export { HorizontalElasticityStrategyConfig } from '@rm98/polaris-core';
 
 /**
  * Denotes an elasticity strategy kind that employs horizontal scaling.

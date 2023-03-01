@@ -1,5 +1,5 @@
-import { TotalCost, TotalCostMetric } from '@rm98/common-mappings';
-import { ComposedMetricParams, ComposedMetricSource, ComposedMetricSourceFactory, MetricsSource, OrchestratorGateway } from '@rm98/core';
+import { TotalCost, TotalCostMetric } from '@rm98/polaris-common-mappings';
+import { ComposedMetricParams, ComposedMetricSource, ComposedMetricSourceFactory, MetricsSource, OrchestratorGateway } from '@rm98/polaris-core';
 import { KubeCostMetricSource } from './kube-cost-metric-source';
 
 /**

@@ -1,4 +1,4 @@
-import { ObjectKind, POLARIS_API, PolarisType, SloCompliance, SloMappingBase, SloMappingInitData, SloMappingSpecBase, initSelf } from '@rm98/core';
+import { ObjectKind, POLARIS_API, PolarisType, SloCompliance, SloMappingBase, SloMappingInitData, SloMappingSpecBase, initSelf } from '@rm98/polaris-core';
 import { RestServiceTarget } from '../slo-targets';
 
 /**

@@ -1,4 +1,4 @@
-import { CpuUsageSloConfig } from '@rm98/common-mappings';
+import { CpuUsageSloConfig } from '@rm98/polaris-common-mappings';
 import {
     LabelFilters,
     Logger,
@@ -9,7 +9,7 @@ import {
     SloCompliance,
     SloMapping,
     SloOutput,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 import { of as observableOf } from 'rxjs';
 
 export class CpuUsageSlo implements ServiceLevelObjective<CpuUsageSloConfig, SloCompliance>  {

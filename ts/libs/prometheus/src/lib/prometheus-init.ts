@@ -1,4 +1,4 @@
-import { Logger, PolarisRuntime } from '@rm98/core'
+import { Logger, PolarisRuntime } from '@rm98/polaris-core'
 import { PrometheusComposedMetricSourceFactory } from './composed-metrics';
 import { PrometheusConfig } from './config'
 import { PrometheusTimeSeriesSource } from './time-series/public'

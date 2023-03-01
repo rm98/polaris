@@ -9,7 +9,7 @@ import {
     PolarisRuntime,
     PolarisTransformationService,
     Scale,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 import { KubernetesScaleApi } from '../kubernetes-scale-api/kubernetes-scale-api';
 import { convertKubernetesErrorToPolaris } from './error-converter';
 

@@ -1,4 +1,4 @@
-# @rm98/schema-gen
+# @rm98/polaris-schema-gen
 
 This library supports the generation of various schemas from TypeScript code.
 
@@ -8,7 +8,7 @@ For more information, please visit the Polaris framework's [website](https://pol
 ## JSON Schema Generation
 
 This library relies on the [ts-json-schema-generator](https://www.npmjs.com/package/ts-json-schema-generator) package, which leverages the TypeScript compiler API to generate a JSON Schema.
-@rm98/schema-gen then applies transformations to that orchestrator-independent schema to match the needs of a specific orchestrator.
+@rm98/polaris-schema-gen then applies transformations to that orchestrator-independent schema to match the needs of a specific orchestrator.
 
 
 ## OpenAPI v3 Specification Generation

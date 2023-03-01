@@ -6,11 +6,11 @@ import {
     SloTarget,
     VerticalElasticityStrategyConfig,
     initSelf,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 import { ReplicableTarget } from '../slo-targets';
 
 // Re-export VerticalElasticityStrategyConfig for easier imports in the code generator.
-export { VerticalElasticityStrategyConfig } from '@rm98/core';
+export { VerticalElasticityStrategyConfig } from '@rm98/polaris-core';
 
 /**
  * Denotes an elasticity strategy kind that employs vertical scaling.

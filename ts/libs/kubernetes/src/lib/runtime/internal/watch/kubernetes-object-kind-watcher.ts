@@ -13,7 +13,7 @@ import {
     WatchTerminatedError,
     convertToNumber,
     getEnvironmentVariable,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 
 const REQUIRED_OBJECT_KIND_PROPERTIES: (keyof ObjectKind)[] = [ 'version', 'kind' ];
 

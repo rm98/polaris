@@ -7,7 +7,7 @@ import {
     OrchestratorToPolarisTransformationError,
     PolarisTransformationService,
     ReusablePolarisTransformer,
-} from '@rm98/core';
+} from '@rm98/polaris-core';
 import { ApiVersionKind } from '../../../model';
 import { KubernetesDefaultTransformer } from './kubernetes-default.transformer';
 
