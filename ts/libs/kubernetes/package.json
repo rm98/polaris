@@ -1,6 +1,6 @@
 {
   "name": "@rm98/polaris-kubernetes",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "license": "Apache-2.0",
   "author": "Polaris SLO Cloud Authors",
   "private": false,
@@ -9,7 +9,7 @@
     "@kubernetes/client-node": "^0.16.3"
   },
   "peerDependencies": {
-    "@rm98/polaris-core": "~0.4.1"
+    "@rm98/polaris-core": "0.5.2"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.6",

@@ -1,5 +1,8 @@
 # Polaris SLO Cloud Changelog
 
+## v0.5.0 & 0.5.1 & 0.5.2 (unreleased)
+
+* Add histogram quantile support to core/raw-metrics-query and the prometheus adapter
 
 ## v0.4.1 (2022-07-11)
 
@@ -29,7 +32,7 @@
 
 * Ensure that the polaris-cli exists with an error code if an error occurs during execution.
 * Explicitly handle invalid composed metric values in the Prometheus `ComposedMetricsManager`.
-* Added missing `js-yaml` v4.1.0 as a dependency of `@polaris-sloc/schema-gen`.
+* Added missing `js-yaml` v4.1.0 as a dependency of `@rm98/polaris-schema-gen`.
 * Fix Docker build failure when not using BuildKit by upgrading to Nx v14.0.3 (see [details](https://github.com/nrwl/nx/issues/9451)).
 
 
@@ -77,7 +80,7 @@
 * Added [Polaris CLI](https://polaris-slo-cloud.github.io/polaris/features/cli.html)
 * Added support for generating Custom Resource Definitions (CRDs) from TypeScript code
 * Added [OrchestratorGateway](./ts/libs/core/src/lib/orchestrator/public/orchestrator-gateway.ts) to allow creating clients for the underlying orchestrator
-* Initial release of [@polaris-sloc](https://www.npmjs.com/settings/polaris-sloc/packages) npm packages
+* Initial release of [@polaris-sloc](https://www.npmjs.com/settings/rm98/packages) npm packages
 * Removed Go code, because with the TypeScript CRD generator it is no longer needed 
 
 

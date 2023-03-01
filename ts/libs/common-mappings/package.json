@@ -1,11 +1,11 @@
 {
   "name": "@rm98/polaris-common-mappings",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "license": "Apache-2.0",
   "author": "Polaris SLO Cloud Authors",
   "private": false,
   "type": "commonjs",
   "peerDependencies": {
-    "@rm98/polaris-core": "~0.5.1"
+    "@rm98/polaris-core": "0.5.2"
   }
 }
