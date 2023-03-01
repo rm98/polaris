@@ -1,4 +1,4 @@
-import { TotalCost } from '@polaris-sloc/common-mappings';
+import { TotalCost } from '@rm98/common-mappings';
 import {
     ComposedMetricParams,
     ComposedMetricSourceBase,
@@ -9,7 +9,7 @@ import {
     MetricsSource,
     OrchestratorGateway,
     Sample,
-} from '@polaris-sloc/core';
+} from '@rm98/core';
 import { Observable } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
 

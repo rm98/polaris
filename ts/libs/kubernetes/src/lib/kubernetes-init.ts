@@ -1,5 +1,5 @@
 import { KubeConfig } from '@kubernetes/client-node';
-import { ApiObject, ContainerResources, Logger, ObjectKind, PolarisRuntime, initPolarisRuntime } from '@polaris-sloc/core';
+import { ApiObject, ContainerResources, Logger, ObjectKind, PolarisRuntime, initPolarisRuntime } from '@rm98/core';
 import { KubernetesPolarisRuntime } from './runtime';
 import { ApiObjectTransformer, ContainerResourcesTransformer, KubernetesDefaultTransformer, ObjectKindTransformer } from './transformation';
 

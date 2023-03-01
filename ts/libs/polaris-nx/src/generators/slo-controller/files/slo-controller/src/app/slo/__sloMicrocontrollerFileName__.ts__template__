@@ -1,5 +1,5 @@
 import { <%= sloConfigType %> } from '<%= sloMappingTypePkg %>';
-import { MetricsSource, ObservableOrPromise, OrchestratorGateway, ServiceLevelObjective, SloCompliance, SloMapping, SloOutput } from '@polaris-sloc/core';
+import { MetricsSource, ObservableOrPromise, OrchestratorGateway, ServiceLevelObjective, SloCompliance, SloMapping, SloOutput } from '@rm98/core';
 
 /**
  * Implements the <%= sloName %> SLO.

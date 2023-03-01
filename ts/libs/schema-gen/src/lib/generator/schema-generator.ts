@@ -1,5 +1,5 @@
 import * as jsonSchemaToOpenApi from '@openapi-contrib/json-schema-to-openapi-schema';
-import { JsonSchema, OpenApiSchema, PolarisRuntime } from '@polaris-sloc/core';
+import { JsonSchema, OpenApiSchema, PolarisRuntime } from '@rm98/core';
 import { Resolver } from '@stoplight/json-ref-resolver';
 import { cloneDeep } from 'lodash';
 import { DEFAULT_CONFIG as TS_JSON_SCHEMA_GEN_DEFAULT_CONFIG, createGenerator } from 'ts-json-schema-generator';

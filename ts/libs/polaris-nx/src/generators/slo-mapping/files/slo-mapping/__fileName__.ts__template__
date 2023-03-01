@@ -1,5 +1,5 @@
-import { HorizontalElasticityStrategyKind } from '@polaris-sloc/common-mappings';
-import { ApiObjectMetadata, SloTarget } from '@polaris-sloc/core';
+import { HorizontalElasticityStrategyKind } from '@rm98/common-mappings';
+import { ApiObjectMetadata, SloTarget } from '@rm98/core';
 import { <%= sloMappingType %>, <%= sloMappingType %>Spec } from '<%= sloMappingTypePkg %>';
 
 export default new <%= sloMappingType %> ({

@@ -1,4 +1,4 @@
-import { ElasticityStrategy, ElasticityStrategyKind, SloCompliance, SloTarget, initSelf } from '@polaris-sloc/core';
+import { ElasticityStrategy, ElasticityStrategyKind, SloCompliance, SloTarget, initSelf } from '@rm98/core';
 
 // ToDo after code generation:
 // - Add configuration parameters to the <%= eStratConfigType %> interface.

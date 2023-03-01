@@ -1,6 +1,6 @@
 import * as fs from 'fs/promises';
 import * as path from 'path';
-import { PolarisConstructor, PolarisRuntime } from '@polaris-sloc/core';
+import { PolarisConstructor, PolarisRuntime } from '@rm98/core';
 import * as Yaml from 'js-yaml';
 import { CustomResourceDefinitionGenerator, SchemaGeneratorConfig } from '../generator';
 

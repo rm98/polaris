@@ -1,4 +1,4 @@
-import { CostEfficiency, CostEfficiencyMetric, CostEfficiencyParams, CostEfficiencySloConfig } from '@polaris-sloc/common-mappings';
+import { CostEfficiency, CostEfficiencyMetric, CostEfficiencyParams, CostEfficiencySloConfig } from '@rm98/common-mappings';
 import {
     ComposedMetricSource,
     MetricsSource,
@@ -9,7 +9,7 @@ import {
     SloMapping,
     SloOutput,
     createOwnerReference,
-} from '@polaris-sloc/core';
+} from '@rm98/core';
 import { of as observableOf } from 'rxjs';
 
 /**

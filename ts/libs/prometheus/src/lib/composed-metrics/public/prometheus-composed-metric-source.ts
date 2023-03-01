@@ -13,7 +13,7 @@ import {
     TimeInstantQuery,
     TimeSeriesInstant,
     TimeSeriesSource,
-} from '@polaris-sloc/core';
+} from '@rm98/core';
 import { Observable, from, of as observableOf } from 'rxjs';
 import { map, switchMap } from 'rxjs/operators';
 import { PrometheusTimeSeriesSource } from '../../time-series';

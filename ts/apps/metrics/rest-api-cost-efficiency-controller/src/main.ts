@@ -1,14 +1,14 @@
 import { KubeConfig } from '@kubernetes/client-node';
-import { CostEfficiencyMetric, CostEfficiencyMetricMapping, initPolarisLib as initCommonMappingsLib } from '@polaris-sloc/common-mappings';
-import { COMPOSED_METRIC_COMPUTATION_DEFAULT_INTERVAL_MS, Logger, convertToNumber, getEnvironmentVariable } from '@polaris-sloc/core';
-import { RestApiCostEfficiencyMetricSourceFactory, initCostEfficiencyMetrics } from '@polaris-sloc/cost-efficiency';
+import { CostEfficiencyMetric, CostEfficiencyMetricMapping, initPolarisLib as initCommonMappingsLib } from '@rm98/common-mappings';
+import { COMPOSED_METRIC_COMPUTATION_DEFAULT_INTERVAL_MS, Logger, convertToNumber, getEnvironmentVariable } from '@rm98/core';
+import { RestApiCostEfficiencyMetricSourceFactory, initCostEfficiencyMetrics } from '@rm98/cost-efficiency';
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import { initPolarisKubernetes } from '@polaris-sloc/kubernetes';
-import { PrometheusComposedMetricsCollectorManager, initPrometheusQueryBackend } from '@polaris-sloc/prometheus';
+import { initPolarisKubernetes } from '@rm98/kubernetes';
+import { PrometheusComposedMetricsCollectorManager, initPrometheusQueryBackend } from '@rm98/prometheus';
 
 // ToDo: It should be possible to build the composed metric controller easily for multiple orchestrators.
 
-// Load the KubeConfig and initialize the @polaris-sloc/kubernetes library.
+// Load the KubeConfig and initialize the @rm98/kubernetes library.
 const k8sConfig = new KubeConfig();
 k8sConfig.loadFromDefault();
 const polarisRuntime = initPolarisKubernetes(k8sConfig);

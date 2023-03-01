@@ -1,12 +1,12 @@
 import { KubeConfig } from '@kubernetes/client-node';
 import { <%= sloMappingType %>, <%= sloMappingSpecType %>, <%= initPolarisLibFn %> as initSloMappingsLib } from '<%= sloMappingTypePkg %>';
-import { Logger, convertToNumber, getEnvironmentVariable } from '@polaris-sloc/core';
-import { initPolarisKubernetes } from '@polaris-sloc/kubernetes';
-import { initPrometheusQueryBackend } from '@polaris-sloc/prometheus';
+import { Logger, convertToNumber, getEnvironmentVariable } from '@rm98/core';
+import { initPolarisKubernetes } from '@rm98/kubernetes';
+import { initPrometheusQueryBackend } from '@rm98/prometheus';
 import { interval } from 'rxjs';
 import { <%= sloMicrocontrollerName %> } from './app/slo';
 
-// Load the KubeConfig and initialize the @polaris-sloc/kubernetes library.
+// Load the KubeConfig and initialize the @rm98/kubernetes library.
 const k8sConfig = new KubeConfig();
 k8sConfig.loadFromDefault();
 const polarisRuntime = initPolarisKubernetes(k8sConfig);

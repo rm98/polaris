@@ -1,4 +1,4 @@
-import { ComposedMetricType, POLARIS_API } from '@polaris-sloc/core';
+import { ComposedMetricType, POLARIS_API } from '@rm98/core';
 
 /**
  * Describes the total cost for an `SloTarget`.

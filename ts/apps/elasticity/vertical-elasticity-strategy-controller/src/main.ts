@@ -1,12 +1,12 @@
 import { KubeConfig } from '@kubernetes/client-node';
-import { VerticalElasticityStrategyKind, initPolarisLib as initCommonMappingsLib } from '@polaris-sloc/common-mappings';
-import { Logger } from '@polaris-sloc/core';
-import { initPolarisKubernetes } from '@polaris-sloc/kubernetes';
+import { VerticalElasticityStrategyKind, initPolarisLib as initCommonMappingsLib } from '@rm98/common-mappings';
+import { Logger } from '@rm98/core';
+import { initPolarisKubernetes } from '@rm98/kubernetes';
 import { VerticalElasticityStrategyController } from './app/vertical-elasticity-strategy';
 
 // ToDo: It should be possible to build the elasticity strategy controller easily for multiple orchestrators.
 
-// Load the KubeConfig and initialize the @polaris-sloc/kubernetes library.
+// Load the KubeConfig and initialize the @rm98/kubernetes library.
 const k8sConfig = new KubeConfig();
 k8sConfig.loadFromDefault();
 const polarisRuntime = initPolarisKubernetes(k8sConfig);

@@ -1,4 +1,4 @@
-import { ComposedMetricMapping, ComposedMetricMappingSpec, ComposedMetricParams, ComposedMetricType, POLARIS_API } from '@polaris-sloc/core';
+import { ComposedMetricMapping, ComposedMetricMappingSpec, ComposedMetricParams, ComposedMetricType, POLARIS_API } from '@rm98/core';
 
 // ToDo after code generation:
 // - Add properties to the <%= compMetricValueType %> interface to store the value of a single metric instance.

@@ -1,12 +1,12 @@
 import { KubeConfig } from '@kubernetes/client-node';
 import { <%= compMetricType %>, <%= compMetricMapping %>, <%= initPolarisLibFn %> as initCompMetricsLib } from '<%= compMetricTypePkg %>';
-import { COMPOSED_METRIC_COMPUTATION_DEFAULT_INTERVAL_MS, Logger, convertToNumber, getEnvironmentVariable } from '@polaris-sloc/core';
+import { COMPOSED_METRIC_COMPUTATION_DEFAULT_INTERVAL_MS, Logger, convertToNumber, getEnvironmentVariable } from '@rm98/core';
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import { initPolarisKubernetes } from '@polaris-sloc/kubernetes';
-import { PrometheusComposedMetricsCollectorManager, initPrometheusQueryBackend } from '@polaris-sloc/prometheus';
+import { initPolarisKubernetes } from '@rm98/kubernetes';
+import { PrometheusComposedMetricsCollectorManager, initPrometheusQueryBackend } from '@rm98/prometheus';
 import { <%= compMetricSourceFactory %> } from './app/metrics';
 
-// Load the KubeConfig and initialize the @polaris-sloc/kubernetes library.
+// Load the KubeConfig and initialize the @rm98/kubernetes library.
 const k8sConfig = new KubeConfig();
 k8sConfig.loadFromDefault();
 const polarisRuntime = initPolarisKubernetes(k8sConfig);

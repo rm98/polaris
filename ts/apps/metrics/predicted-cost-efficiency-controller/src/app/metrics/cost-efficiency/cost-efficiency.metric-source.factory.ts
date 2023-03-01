@@ -1,5 +1,5 @@
-import { ComposedMetricSource, ComposedMetricSourceFactory, MetricsSource, ObjectKind, OrchestratorGateway } from '@polaris-sloc/core';
-import { CostEfficiency, CostEfficiencyMetric, CostEfficiencyParams } from '@polaris-sloc/common-mappings';
+import { ComposedMetricSource, ComposedMetricSourceFactory, MetricsSource, ObjectKind, OrchestratorGateway } from '@rm98/core';
+import { CostEfficiency, CostEfficiencyMetric, CostEfficiencyParams } from '@rm98/common-mappings';
 import { CostEfficiencyMetricSource } from './cost-efficiency.metric-source';
 
 /**

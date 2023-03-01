@@ -6,7 +6,7 @@ import {
     SloTarget,
     VerticalElasticityStrategyConfig,
     VerticalElasticityStrategyControllerBase,
-} from '@polaris-sloc/core';
+} from '@rm98/core';
 
 /**
  * Performs simple vertical scaling of a workload.

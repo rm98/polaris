@@ -1,4 +1,4 @@
-# @polaris-sloc/common-mappings
+# @rm98/common-mappings
 
 This library was contains commonly used Polaris mappings and interfaces.
 

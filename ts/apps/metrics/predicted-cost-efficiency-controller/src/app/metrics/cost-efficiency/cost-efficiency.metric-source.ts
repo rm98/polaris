@@ -1,7 +1,7 @@
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import {CostEfficiency, CostEfficiencyParams} from '@polaris-sloc/common-mappings';
+import {CostEfficiency, CostEfficiencyParams} from '@rm98/common-mappings';
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import {ComposedMetricSourceBase, MetricsSource, ObjectKind, OrchestratorGateway, Sample} from '@polaris-sloc/core';
+import {ComposedMetricSourceBase, MetricsSource, ObjectKind, OrchestratorGateway, Sample} from '@rm98/core';
 import axios from 'axios';
 import {Observable} from 'rxjs';
 import {map, switchMap} from 'rxjs/operators';

@@ -4,20 +4,20 @@ import {
     CostEfficiencyMetric,
     CostEfficiencyMetricMapping,
     initPolarisLib as initCommonMappingsLib,
-} from '@polaris-sloc/common-mappings';
+} from '@rm98/common-mappings';
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import { COMPOSED_METRIC_COMPUTATION_DEFAULT_INTERVAL_MS, Logger } from '@polaris-sloc/core';
+import { COMPOSED_METRIC_COMPUTATION_DEFAULT_INTERVAL_MS, Logger } from '@rm98/core';
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import { initCostEfficiencyMetrics } from '@polaris-sloc/cost-efficiency';
+import { initCostEfficiencyMetrics } from '@rm98/cost-efficiency';
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import { initPolarisKubernetes } from '@polaris-sloc/kubernetes';
+import { initPolarisKubernetes } from '@rm98/kubernetes';
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
-import { PrometheusComposedMetricsCollectorManager, initPrometheusQueryBackend } from '@polaris-sloc/prometheus';
+import { PrometheusComposedMetricsCollectorManager, initPrometheusQueryBackend } from '@rm98/prometheus';
 import { CostEfficiencyMetricSourceFactory } from './app/metrics';
 import { convertToNumber, getEnvironmentVariable } from './app/util/environment-var-helper';
 
 
-// Load the KubeConfig and initialize the @polaris-sloc/kubernetes library.
+// Load the KubeConfig and initialize the @rm98/kubernetes library.
 const k8sConfig = new KubeConfig();
 k8sConfig.loadFromDefault();
 const polarisRuntime = initPolarisKubernetes(k8sConfig);

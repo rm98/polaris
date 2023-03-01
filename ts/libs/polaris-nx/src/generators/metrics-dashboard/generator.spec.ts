@@ -16,7 +16,7 @@ describe('metrics-dashboard generator', () => {
         name: 'test',
         namespace: 'test',
         compMetricType: 'CostEfficiency',
-        compMetricTypePkg: '@polaris-sloc/cost-efficiency',
+        compMetricTypePkg: '@rm98/cost-efficiency',
     };
 
     beforeEach(() => {

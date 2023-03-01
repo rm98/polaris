@@ -1,15 +1,15 @@
 import { KubeConfig } from '@kubernetes/client-node';
-import { CostEfficiencySloMapping, CostEfficiencySloMappingSpec, initPolarisLib as initCommonMappingsLib } from '@polaris-sloc/common-mappings';
-import { Logger, convertToNumber, getEnvironmentVariable } from '@polaris-sloc/core';
-import { initCostEfficiencyMetrics } from '@polaris-sloc/cost-efficiency';
-import { initPolarisKubernetes } from '@polaris-sloc/kubernetes';
-import { initPrometheusQueryBackend } from '@polaris-sloc/prometheus';
+import { CostEfficiencySloMapping, CostEfficiencySloMappingSpec, initPolarisLib as initCommonMappingsLib } from '@rm98/common-mappings';
+import { Logger, convertToNumber, getEnvironmentVariable } from '@rm98/core';
+import { initCostEfficiencyMetrics } from '@rm98/cost-efficiency';
+import { initPolarisKubernetes } from '@rm98/kubernetes';
+import { initPrometheusQueryBackend } from '@rm98/prometheus';
 import { interval } from 'rxjs';
 import { CostEfficiencySlo } from './app/cost-efficiency-slo';
 
 // ToDo: It should be possible to build the SLO controller easily for multiple orchestrators.
 
-// Load the KubeConfig and initialize the @polaris-sloc/kubernetes library.
+// Load the KubeConfig and initialize the @rm98/kubernetes library.
 const k8sConfig = new KubeConfig();
 k8sConfig.loadFromDefault();
 const polarisRuntime = initPolarisKubernetes(k8sConfig);

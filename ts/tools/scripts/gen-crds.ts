@@ -1,4 +1,4 @@
-// This script generates the Kubernetes CRDs for the @polaris-sloc/common-mappings library.
+// This script generates the Kubernetes CRDs for the @rm98/common-mappings library.
 // In repositories created with the Polaris CLI, this script is automatically generated when running `polaris-cli gen-crds [project]`.
 // To execute this script, open a terminal in the root folder of the TypeScript workspace and execute the following command:
 // npx ts-node --project ./tools/scripts/tsconfig.json ./tools/scripts/gen-crds.ts
@@ -11,10 +11,10 @@ import {
     HorizontalElasticityStrategy,
     VerticalElasticityStrategy,
     initPolarisLib as initPolarisTargetLib,
-} from '@polaris-sloc/common-mappings';
-import { PolarisConstructor } from '@polaris-sloc/core';
-import { initPolarisKubernetes } from '@polaris-sloc/kubernetes';
-import { CustomResourceDefinitionWriter } from '@polaris-sloc/schema-gen';
+} from '@rm98/common-mappings';
+import { PolarisConstructor } from '@rm98/core';
+import { initPolarisKubernetes } from '@rm98/kubernetes';
+import { CustomResourceDefinitionWriter } from '@rm98/schema-gen';
 
 const OUT_DIR = 'crds/kubernetes';
 const TS_CONFIG_FILE = './tsconfig.base.json';

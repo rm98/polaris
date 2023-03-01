@@ -1,5 +1,5 @@
 import { names } from '@nrwl/devkit';
-import { POLARIS_API, getPlural as getPluralCore } from '@polaris-sloc/core';
+import { POLARIS_API, getPlural as getPluralCore } from '@rm98/core';
 
 /** The name of the function used to initialize a Polaris library. */
 export const POLARIS_INIT_LIB_FN_NAME = 'initPolarisLib';

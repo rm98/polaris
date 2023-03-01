@@ -7,7 +7,7 @@ import {
     MetricsSource,
     OrchestratorGateway,
     POLARIS_API,
-} from '@polaris-sloc/core';
+} from '@rm98/core';
 import { PrometheusComposedMetricSource } from './prometheus-composed-metric-source';
 
 /**

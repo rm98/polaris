@@ -23,25 +23,25 @@
         "skipDefaultLibCheck": true,
         "baseUrl": ".",
         "paths": {
-            "@polaris-sloc/common-mappings": [
+            "@rm98/common-mappings": [
                 "libs/common-mappings/src/index.ts"
             ],
-            "@polaris-sloc/core": [
+            "@rm98/core": [
                 "libs/core/src/index.ts"
             ],
-            "@polaris-sloc/cost-efficiency": [
+            "@rm98/cost-efficiency": [
                 "libs/cost-efficiency/src/index.ts"
             ],
-            "@polaris-sloc/kubernetes": [
+            "@rm98/kubernetes": [
                 "libs/kubernetes/src/index.ts"
             ],
-            "@polaris-sloc/polaris-nx": [
+            "@rm98/polaris-nx": [
                 "libs/polaris-nx/src/index.ts"
             ],
-            "@polaris-sloc/prometheus": [
+            "@rm98/prometheus": [
                 "libs/prometheus/src/index.ts"
             ],
-            "@polaris-sloc/schema-gen": [
+            "@rm98/schema-gen": [
                 "libs/schema-gen/src/index.ts"
             ]
         }

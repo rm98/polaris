@@ -1,4 +1,4 @@
-import { NativeQueryBuilderFactoryFn, TimeSeriesSourceBase } from '@polaris-sloc/core';
+import { NativeQueryBuilderFactoryFn, TimeSeriesSourceBase } from '@rm98/core';
 import { PrometheusConfig } from '../../config';
 import { PrometheusNativeQueryBuilder } from '../internal';
 

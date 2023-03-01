@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 
 /**
- * Public API of the @polaris-sloc/core library.
+ * Public API of the @rm98/core library.
  */
 
 export * from './lib/util/public';

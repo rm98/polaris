@@ -1,5 +1,5 @@
 import {Tree, names} from '@nrwl/devkit';
-import {SloMappingBase} from '@polaris-sloc/core';
+import {SloMappingBase} from '@rm98/core';
 import {Dashboard, Panels, Row, Target} from 'grafana-dash-gen';
 import {
     getPanels,

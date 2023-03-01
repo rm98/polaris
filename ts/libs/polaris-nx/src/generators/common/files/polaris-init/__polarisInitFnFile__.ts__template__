@@ -1,4 +1,4 @@
-import { PolarisRuntime } from '@polaris-sloc/core';
+import { PolarisRuntime } from '@rm98/core';
 import { <%= className %> } from './<%= destDirInLib %>/<%= classFileName %>';
 
 /**

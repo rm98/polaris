@@ -1,4 +1,4 @@
-import { PolarisRuntime } from '@polaris-sloc/core';
+import { PolarisRuntime } from '@rm98/core';
 import { HorizontalElasticityStrategy, HorizontalElasticityStrategyKind, VerticalElasticityStrategy, VerticalElasticityStrategyKind } from './elasticity';
 import { CostEfficiencyMetricMapping } from './metrics';
 import { CostEfficiencySloMapping, CpuUsageSloMapping } from './slo';

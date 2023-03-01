@@ -1,4 +1,4 @@
-import { ObjectKind, POLARIS_API, PolarisType, SloCompliance, SloMappingBase, SloMappingInitData, SloMappingSpecBase, initSelf } from '@polaris-sloc/core';
+import { ObjectKind, POLARIS_API, PolarisType, SloCompliance, SloMappingBase, SloMappingInitData, SloMappingSpecBase, initSelf } from '@rm98/core';
 
 /**
  * Configuration for a `CpuUsageSloMapping`.

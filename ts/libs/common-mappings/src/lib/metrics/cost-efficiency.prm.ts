@@ -1,4 +1,4 @@
-import { ComposedMetricMapping, ComposedMetricMappingSpec, ComposedMetricParams, ComposedMetricType, ObjectKind, POLARIS_API } from '@polaris-sloc/core';
+import { ComposedMetricMapping, ComposedMetricMappingSpec, ComposedMetricParams, ComposedMetricType, ObjectKind, POLARIS_API } from '@rm98/core';
 import { TotalCost } from './total-cost.prm';
 
 /**
