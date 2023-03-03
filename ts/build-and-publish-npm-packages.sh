@@ -38,7 +38,7 @@ NPM_PKGS=(
 
 cd ./dist
 for pkg in ${NPM_PKGS[@]}; do
-    npm publish $pkg
+    npm publish --access public --registry "http://localhost:4873" $pkg
 done
 
 echo "All packages published successfully."
